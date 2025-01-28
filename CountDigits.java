@@ -9,6 +9,7 @@ public class CountDigits {
         int number = scanner.nextInt();
 
         int count = 0;
+        scanner.close();
 
         // Handle the case where the input is 0 separately
         if (number == 0) {
